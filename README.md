@@ -23,9 +23,10 @@ There are several other self explanatory attributes, such as `price` (per night)
   <img src="images/report9_img3.svg" height="250">
 </p
   
-  
-## Proposed Approach
-  
+
+<br />  
+
+## Proposed Approach  
 ### Preprocessing
 We assumed that name, host_name do not affect the price of a listing, even tho a consistent answer would require a proper text mining analysis. last_review is a date object and in this context it could be difficult to manage. So, as a first step, we dropped these three columns. Immediately after, we managed the null values on the reviews fields. In particular, since  null means that there are no reviews yet, a possible way to manage them is by fill these values with zero. 
   
